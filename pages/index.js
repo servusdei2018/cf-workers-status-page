@@ -67,7 +67,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
           `}
         </script>
       </Head>
-      <div className="container mx-auto px-4" style="max-width: 850px;">
+      <div className="container mx-auto px-4" style={{maxWidth: "850px";}}>
         <div className="flex flex-row justify-between items-center p-4">
           <div className="flex flex-row items-center">
             <h1 className="ml-4 text-3xl">📡 {config.settings.title}</h1>
