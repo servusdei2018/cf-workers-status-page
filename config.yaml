@@ -25,3 +25,11 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: true # should the titles be links to the service, default=true
+  - id: notes.bracy.dev # unique identifier
+    name: notes.bracy.dev
+    description: 'bracy.dev notes site' # default=empty
+    url: 'https://notes.bracy.dev/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: true # should the titles be links to the service, default=true
