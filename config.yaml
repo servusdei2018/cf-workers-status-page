@@ -3,17 +3,17 @@ settings:
   url: 'https://status.bracy.dev' # used for Slack & Discord messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
-  collectResponseTimes: false # experimental feature, enable only for <5 monitors or on paid plans
+  collectResponseTimes: true # experimental feature, enable only for <5 monitors or on paid plans
 
   # configurable texts across the status page
   allmonitorsOperational: 'All Systems Operational'
-  notAllmonitorsOperational: 'Not All Systems Operational'
+  notAllmonitorsOperational: 'Issues Detected'
   monitorLabelOperational: 'Operational'
-  monitorLabelNotOperational: 'Not Operational'
+  monitorLabelNotOperational: 'Issues Detected'
   monitorLabelNoData: 'No data'
   dayInHistogramNoData: 'No data'
   dayInHistogramOperational: 'All good'
-  dayInHistogramNotOperational: 'Some checks failed'
+  dayInHistogramNotOperational: 'checks failed'
 
 # list of monitors
 monitors:
