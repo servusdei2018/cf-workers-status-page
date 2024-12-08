@@ -42,7 +42,7 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
   const slash = useKeyPress('/')
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen" style="position: absolute; left: 50%; transform: translateX(-50%); max-width: 100vw;">
       <Head>
         <title>{config.settings.title}</title>
         <link rel="stylesheet" href="./style.css" />
